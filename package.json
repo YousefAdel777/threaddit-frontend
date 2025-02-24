@@ -1,0 +1,45 @@
+{
+  "name": "threaddit-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@hookform/resolvers": "^3.9.0",
+    "@mdxeditor/editor": "^3.14.0",
+    "axios": "^1.7.7",
+    "next": "15.1.7",
+    "next-auth": "^5.0.0-beta.25",
+    "next-video": "^1.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.9",
+    "react-easy-crop": "^5.1.0",
+    "react-hook-form": "^7.53.0",
+    "react-icons": "^5.3.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-markdown": "^9.0.1",
+    "react-select": "^5.8.1",
+    "rehype-highlight": "^7.0.0",
+    "swiper": "^11.1.14",
+    "swr": "^2.2.5",
+    "zod": "^3.23.8",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1771d7;
+  --secondary: #f0f0f0;
+  --ternary: #e5ebee;
+  --primary-hover: #0c52a2;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.298);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+
+@layer base {
+  body {
+    @apply min-h-svh pt-20;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto md:w-[750px] lg:w-[970px] xl:w-[1170px];
+  }
+  .error {
+    @apply text-red-500 mb-2 text-xs italic font-bold opacity-0 duration-150;
+  }
+  .form-input {
+    @apply w-full mb-2 rounded-lg py-3 px-4 bg-ternary outline-none;
+  }
+  a.active {
+    @apply bg-secondary;
+  }
+  .header-link {
+    @apply text-sm px-3 py-2 rounded-3xl duration-200 hover:underline hover:bg-ternary;
+  }
+  .status-label {
+    @apply px-1.5 py-1 rounded-xl text-white text-xs font-semibold;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fade-in 0.3s;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
