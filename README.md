@@ -8,7 +8,7 @@ Threaddit is a Reddit-like platform that allows users to create communities, pos
 - **Posts & Comments**: Create, read, update, and delete posts and comments.
 - **Voting System**: Upvote/downvote for posts and comments.
 - **Moderation**: Role-based permissions for moderators.
-- **Optimistic UI Updates**: Real-time feedback using SWR.
+- **Optimistic UI Updates**: Real-time feedback using SWR
 
 ## 🛠️ Tech Stack
 - **Framework**: Next.js
